@@ -4,7 +4,7 @@ A CSS-only port of the original Zed One Light and One Dark palettes for the defa
 
 用 Zed 官方 **One Light** 和 **One Dark** 给 Obsidian Default 换色。工作区、导航、编辑器、浮层和内置视图使用同一套 One 颜色。字体、布局、组件尺寸和交互沿用 Obsidian。主题由 CSS 实现。 [Zed One 上游](https://github.com/zed-industries/zed/blob/10d1b2a564604dba7b8f05b157b7f9e8ed35255b/assets/themes/one/one.json)
 
-![Zed One Light in Obsidian](screenshot.png)
+![Zed One Light and One Dark palette preview](screenshot.png)
 
 ## 安装
 
