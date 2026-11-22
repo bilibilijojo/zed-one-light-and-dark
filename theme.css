@@ -377,8 +377,9 @@ body:not(.is-translucent) :where(.app-container, .workspace) {
 }
 
 .modal.mod-settings {
-  --modal-sidebar-background: var(--settings-background);
-  --setting-items-background: var(--settings-background);
+  --settings-background: var(--one-editor-background);
+  --modal-sidebar-background: var(--one-panel-background);
+  --setting-items-background: var(--one-surface-background);
   --interactive-normal: var(--one-editor-background);
 }
 

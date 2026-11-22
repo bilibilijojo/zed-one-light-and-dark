@@ -372,7 +372,9 @@ Zed 的中性色复用到宿主等级刻度。Obsidian 可继续用这些变量�
 | `elevated_surface.background` | `#ebebecff` | `#2f343eff` | `--settings-background`（`.modal:where(.mod-settings, .mod-community-theme)`） | 近似或借用 |
 | `panel.background` | `#ebebecff` | `#2f343eff` | `--modal-sidebar-background`（`.modal:where(.mod-settings, .mod-community-theme)`） | 直接 |
 | `editor.background` | `#fafafaff` | `#282c33ff` | `--setting-items-background`、`--background-modifier-form-field`（`.modal:where(.mod-settings, .mod-community-theme)`） | 近似或借用 |
-| `elevated_surface.background` | `#ebebecff` | `#2f343eff` | 设置内的 `--modal-sidebar-background`、`--setting-items-background` 和 `.vertical-tab-content` 的底色随 `--settings-background` | 近似或借用 |
+| `editor.background` | `#fafafaff` | `#282c33ff` | 设置内容区的 `--settings-background` 与 `.vertical-tab-content` 底色 | 近似或借用 |
+| `panel.background` | `#ebebecff` | `#2f343eff` | 设置导航的 `--modal-sidebar-background` | 直接 |
+| `surface.background` | `#ebebecff` | `#2f343eff` | 设置分组的 `--setting-items-background` | 近似或借用 |
 | `editor.background` | `#fafafaff` | `#282c33ff` | 设置内普通控件的 `--interactive-normal`（`.modal.mod-settings`） | 近似或借用 |
 | `border` | `#c9c9caff` | `#464b57ff` | `--setting-items-border-color`（`.modal:where(.mod-settings, .mod-community-theme)`） | 近似或借用 |
 | `border.variant` | `#dfdfe0ff` | `#363c46ff` | `--setting-items-divider-color`（`.modal:where(.mod-settings, .mod-community-theme)`） | 近似或借用 |
