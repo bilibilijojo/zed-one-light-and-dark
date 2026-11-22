@@ -10,6 +10,8 @@ The palette is understated, and the experience stays familiar. Every time you op
 
 **Preserve Obsidian’s original design and let color take center stage.**
 
+Pair it with [Syntax Palette](https://github.com/bilibilijojo/obsidian-syntax-palette) to bring a little extra color to the code in your notes.
+
 ![Zed One Light and One Dark palette preview](screenshot.png)
 
 ---
