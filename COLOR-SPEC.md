@@ -353,6 +353,7 @@ Zed 的中性色复用到宿主等级刻度。Obsidian 可继续用这些变量�
 | `panel.background` | `#ebebecff` | `#2f343eff` | `--mobile-sidebar-background` | 近似或借用 |
 | `background` | `#dcdcddff` | `#3b414dff` | `background-color`（`body:not(.is-translucent) :where(.app-container, .workspace)`） | 近似或借用 |
 | `tab_bar.background` | `#ebebecff` | `#2f343eff` | `--tab-container-background`、`--sidebar-tab-container-background`（`.workspace-tabs.mod-top`） | 直接 |
+| `tab_bar.background` | `#ebebecff` | `#2f343eff` | macOS 隐藏标题栏时的主 Ribbon 顶部背景 | 借用标签栏颜色，使原生窗口按钮后方与相邻标签栏连续；透明窗口沿用宿主 |
 | `panel.background` | `#ebebecff` | `#2f343eff` | `--file-header-background`、`--file-header-background-focused`（`.workspace :where(.mod-sidedock) .view-header`） | 直接 |
 | Light `element.active` / Dark `editor.background` | `#cacacaff` | `#282c33ff` | 左侧 Ribbon 图标的 `--background-modifier-hover` | 近似或借用 |
 

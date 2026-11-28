@@ -322,6 +322,11 @@ body:not(.is-translucent) :where(.app-container, .workspace) {
   background-color: var(--one-background);
 }
 
+/* Keep the native macOS traffic lights over one continuous tab-bar color. */
+body.mod-macos.is-hidden-frameless:not(.is-translucent) .workspace-ribbon.mod-primary::before {
+  background-color: var(--one-tab-bar-background);
+}
+
 .workspace-tabs.mod-top {
   --tab-container-background: var(--one-tab-bar-background);
   --sidebar-tab-container-background: var(--one-tab-bar-background);
